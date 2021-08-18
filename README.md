@@ -1,1 +1,1 @@
-# genius-game
+# genesis-game
