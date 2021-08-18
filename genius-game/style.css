@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(208, 255, 239);
+    background-color: rgb(80, 226, 178);
 }
 
 .main-game {
@@ -16,8 +16,8 @@ body {
     grid-template-areas: 'verde vermelho'
     'amarelo azul';
     grid-gap: 10px;
-    border: 1px solid #FFFFFF;
-    background-color: #FFFFFF;
+    border: 3px solid #000000;
+    background-color: #000000;
     border-radius: 100%;
     width: 400px;
     height: 400px;
@@ -27,24 +27,28 @@ body {
     grid-area: azul;
     background-color: blue;
     border-bottom-right-radius: 100%;
+    border: 2px solid #000000;
 }
 
 .red {
     grid-area: vermelho;
     background-color: red;
     border-top-right-radius: 100%;
+    border: 2px solid #000000;
 }
 
 .yellow {
     grid-area: amarelo;
     background-color: yellow;
     border-bottom-left-radius: 100%;
+    border: 2px solid #000000;
 }
 
 .green {
     grid-area: verde;
     background-color: green;
     border-top-left-radius: 100%;
+    border: 2px solid #000000;
 }
 
 .selected {

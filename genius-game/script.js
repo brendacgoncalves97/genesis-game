@@ -76,7 +76,7 @@ let nextLevel = () => {
 }
 
 let lose = () => {
-    alert(`Pontuação: ${score}\nVocê perdeu o jogo!\nClique em OK para iniciarum novo jogo!`);
+    alert(`Pontuação: ${score}\nVocê perdeu o jogo!\nClique em OK para iniciar um novo jogo!`);
     order = [];
     clickedOrder = [];
 
